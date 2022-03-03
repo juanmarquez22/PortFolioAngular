@@ -1,0 +1,10 @@
+<section id="experiencia">
+    <h2>Antecedentes Laborales</h2>
+    <ul *ngFor="let exp of expList">
+        <div class="contE">
+            <img class="logoUniv" [src]="exp.img_empresa" alt="Logo Empresa">
+            <p>Periodo: {{exp.periodo}}</p>
+            <p><b>{{exp.empresa}}</b>: {{exp.descripcion}}</p>
+        </div>
+    </ul>
+</section>

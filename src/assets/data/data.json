@@ -1,0 +1,176 @@
+
+{
+
+    "titulo": "JUAN MARQUEZ",
+    "nombre": "JUAN L MARQUEZ",
+    "imagen_pers":"./assets/img/foto.png",
+    "trabajo_actual":{
+        "cargo": "Profesional de Apoyo en IEE-CONICET",
+        "nombre_emp":"IEE-CONICET",
+        "imagen_emp":"./assets/img/conicetiee.png",
+        "ubicacion_emp":"San Juan (Argentina)"
+    },
+    "info_personal":{
+        "nombre_completo":"Marquez Flores, Juan Luis",
+        "dni":"31.005.296",
+        "fecha_nac":"22/07/1984",
+        "estado_civil":"Soltero (1 hijo)",
+        "direccion":"Barrio Altos de Natania, m36, c18. Rivadavia. San Juan",
+        "telefono":"264 5289292",
+        "correo":"juanmarquezsj@gmail.com",
+        "img":"./assets/img/foto.png"
+    },
+    "estudios_grado":[
+        {
+            "titulo": "Ingeniero Eléctrico",
+            "institucion": "Facultad de Ingeniería – Universidad Nacional de San Juan – U.N.S.J.",
+            "carrera": "Ingeniería Eléctrica",
+            "img":"./assets/img/fiunsj.jfif",
+            "ingreso": "Marzo 2003",
+            "egreso": "Agosto 2009"
+        },
+
+        {
+            "titulo": "Licenciado en Ciencias de la Computación (a obtener)",
+            "institucion": "Facultad de Ciencias Exactas Físicas y Naturales – Universidad Nacional de San Juan.",
+            "carrera": "Licenciatura en Ciencias de la Computación",
+            "img":"./assets/img/fcefn.png",
+            "ingreso": "Marzo 2019",
+            "egreso": ""
+        }
+
+    ],
+    "estudios_pregrado":[
+        {
+            "titulo": "Técnico Electromecánico",
+            "institucion": "Escuela Técnica, Ingeniero Rogelio BOERO – E.P.E.T. Nº 1",
+            "img":"./assets/img/boero.jfif",
+            "egreso": "Diciembre del 2002",
+            "promedio": "8.96"
+        }
+    ],
+    "idiomas":[
+        {
+            "idioma": "Inglés",
+            "nivel": "Basico (Nivel Elemental y Pre-Intermedio)",
+            "institucion": "Instituto Saint John's",
+            "img":"./assets/img/sjonh.png"
+        },
+        {
+            "idioma": "Portugués",
+            "nivel": "Basico (Estadia laboral de 4 meses en Brasil)",
+            "institucion": "",
+            "img":"./assets/img/brasil.jpg"
+        }
+    ],
+    "experiencia":[
+        {
+            "img_empresa": "./assets/img/conicetiee.png",
+            "empresa":"IEE-CONICET-UNSJ",
+            "periodo":"2021 - Actual",
+            "descripcion": "CPA Profesional Adjunto, profesional para asistir y brindar soporte en el Laboratorio de Energías Renovables del Instituto de Energía Eléctrica de la Universidad Nacional de San Juan. Fecha de ingreso: 01/04/2021"
+        },
+        {
+            "img_empresa": "./assets/img/energia.png",
+            "empresa":"ENERGÍA SAN JUAN",
+            "periodo":"2015 - 2020",
+            "descripcion":"Ingeniero de Obras Eléctricas de Baja, Media y Alta Tensión. A cargo de supervisar la ejecución de los trabajos por parte de empresas contratistas de Energía San Juan, principalmente en 13,2 kV, y elaborar reportes para ser presentados al  Ente Provincial Regulador de la Electricidad. Responsabilidad exclusiva en supervisión de construcción de Línea de Alta Tensión 132kV para vincular las nuevas Estaciones Transformadoras ET LA BEBIDA – ET ALBARDON/CHIMBAS y ET LA BEBIDA – ET RAWSON/POCITO. Elaboración de Pliegos para Concursos Privados de Precios y demás tareas inherentes a la designación de Obras mediante concursos. PROMOCIÓN (Noviembre 2018): Jefe del Área Obras de Energía San Juan SA (5 personas a cargo). El cargo incluye responsabilidad en el concurso, designación de contratista, seguimiento en la ejecución para cumplir los plazos en la finalización de las obras de 13,2 kV y BT (tanto aéreas como subterráneas). Elaboración de informes y reportes para ser enviados al Ente Regulador. Fecha de ingreso: 09/03/2015"
+        },
+        {
+            "img_empresa": "./assets/img/barrick.jpg",
+            "empresa":"BARRICK EXPLORACIONES ARGENTINAS SA",
+            "periodo":"2011 - 2013",
+            "descripcion":"Trabajos de Configuración del Sistema de Control (DCS) de la Planta de Procesos del Proyecto Minero Pascua-Lama. Desarrollo de Tareas de configuración de controladores, Pruebas de Aceptación en Fábrica de Tableros del DCS en planta de fabricación de ABB Argentina, Pruebas en Terreno y Puesta en Marcha de Plantas de Construcción Primaria. Apoyo en tareas de Supervisión de instalación de grupos generadores para abastecimiento de energía al campamento “Los Amarillos”. Periodo de Ejecución: desde 21/02/2011 hasta 27/11/2013. Función: Ingeniero DCS."
+        },
+        {
+            "img_empresa": "./assets/img/icsa.jpg",
+            "empresa":"ICSA MENDOZA",
+            "periodo":"2010 - 2011",
+            "descripcion":"Ingeniero de Puesta en marcha de protecciones eléctricas en Central  Hidráulica en construcción, configurando, ajustando y ensayando dispositivos  marca ABB, de la plataforma 670 (luego de realizar curso de perfeccionamiento en las instalaciones de ABB en Valentín Alsina, Buenos Aires) para la protección del Generador de unidad, transformador elevador, líneas hasta la sub-estación, sub-estación y líneas de salida de la central. También en las instalaciones de fabricación de paneles de ICSA se configuró y ensayo dispositivos SEL y AREVA (Serie MICOM) para otras obras en las que la empresa tenía asignadas tareas específicas. (Parque Eólico ARAUCO en La Rioja). Curso de manejo de equipos de inyección secundaria de diversas marcas para el ensayo de los dispositivos de protección, dictado en las instalaciones de ICSA por personal de ABB. Periodo de Ejecución: desde 03/2010 hasta 10/2010. Función: Ingeniero de Protecciones."
+        },
+        {
+            "img_empresa": "./assets/img/exxon.png",
+            "empresa":"EXXON Mobil",
+            "periodo":"2010",
+            "descripcion":"Realización de pasantía rentada en EXXON Mobil (Esso Petrolera Argentina). Duración: 2 meses"
+        },
+        {
+            "img_empresa": "./assets/img/conicetiee.png",
+            "empresa":"INSTITUTO DE ENERGIA ELECTRICA",
+            "periodo":"2007 - 2009",
+            "descripcion":"Ayudante de Cátedras (en Instituto de Energía Eléctrica de la U.N.S.J.), en las materias de la carrera Ingeniería Eléctrica: Principios de Electrónica y Telecomunicaciones. Electrónica de Potencia"
+        },
+        {
+            "img_empresa": "./assets/img/loma.jfif",
+            "empresa":"LOMA NEGRA CIASA",
+            "periodo":"2002",
+            "descripcion":"Pasantía en LOMA NEGRA CIASA durante un lapso de 6 meses en mantenimiento electro-mecánico."
+        }
+    ],
+    "cursos":[
+        {
+            "img":"assets/img/folcademy.png",
+            "curso":"UI DEVELOPMENT",
+            "certificado":"./assets/img/UI-18.png",
+            "detalle":"Folcademy. – Diciembre 2021, con una carga horaria de 64hs"
+        },
+        {
+            "img":"assets/img/arg1.jpg",
+            "curso":"ARGENTINA PROGRAMA: #SeProgramar",
+            "certificado":"./assets/img/argentina_programa_agosto_octubre_2021.pdf",
+            "detalle":"Ministerio de Desarrollo Productivo. CESSI Argentina – Octubre 2021"
+        },
+        {
+            "img":"assets/img/conicetiee.png",
+            "curso":"TECNOLOGIAS DE GENERACIÓN ELECTRICA DISTRIBUIDA",
+            "certificado":"",
+            "detalle":"IEE–FI–UNSJ. Dictado por los Ing. Domingo Pontoriero, Juan Serrano, Gustavo Baron y el Dr. Ing. Pedro Mercado"
+        },
+        {
+            "img":"assets/img/conicetiee.png",
+            "curso":"INTRODUCCIÓN A LA PROTECCIÓN DE SISTEMAS ELÉCTRICOS DE POTENCIA",
+            "certificado":"",
+            "detalle":"Carga horaria de 30 horas. Instituto de Energía Eléctrica – Facultad de Ingeniería – Universidad Nacional de San Juan"
+        },
+        {
+            "img":"assets/img/conicetiee.png",
+            "curso":"AUTOCAD",
+            "certificado":"",
+            "detalle":"Instituto de Energía Eléctrica – Facultad de Ingeniería – Universidad Nacional de San Juan. Diciembre 2009. Dictado por el Ing. Carlos Guevara"
+        },
+        {
+            "img":"assets/img/conicetiee.png",
+            "curso":"INTRODUCCIÓN AL SISTEMA MATLAB/SIMULINK",
+            "certificado":"",
+            "detalle":"Instituto de Energía Eléctrica – Facultad de Ingeniería – Universidad Nacional de San Juan. Junio 2009. Dictado por la Dra. Ing. Graciela Colomé"
+        },
+        {
+            "img":"assets/img/fiunsj.jfif",
+            "curso":"APRENDIENDO MATLAB",
+            "certificado":"",
+            "detalle":"Avalado por el departamento de Ingeniería de Minas- Facultad de Ingeniería – Universidad Nacional de San Juan"
+        },
+        {
+            "img":"assets/img/abb.png",
+            "curso":"T314 – Engineering using System 800xA with AC800M",
+            "certificado":"",
+            "detalle":"Dictado en Santiago de Chile, por capacitador de ABB University, durante el mes de marzo de 2011"
+        },
+        {
+            "img":"assets/img/adexus.png",
+            "curso":"CONOCIMIENTOS BASICOS DE REDES DE DATOS Y DESCRIPCION DE REDES PROYECTO PASCUA-LAMA",
+            "certificado":"",
+            "detalle":"Dictado en Santiago de Chile por capacitadores de la empresa ADEXUS SA, en Agosto de 2011 con una carga horaria de 40 horas"
+        },
+        {
+            "img":"assets/img/barrick.jpg",
+            "curso":"HERRAMIENTAS BASICAS DE MEJORA CONTINUA",
+            "certificado":"",
+            "detalle":"A través de 19 cursos del programa “e-Learning” desarrollado por el Área de Capacitación de BARRICK EXPLORACIONES ARGENTINAS SA con una carga horaria de 25horas"
+        }
+    ]
+
+
+}
+
+

@@ -1,0 +1,40 @@
+<section id="educacion">
+    <h2>Formación Académica</h2>
+    <h3>Formación de Grado</h3>
+    <ul *ngFor="let grado of gradoList">
+        <div class="contE">
+            <img class="logoUniv" [src]="grado.img" alt="Logo Institucion">
+            <p><b>{{grado.titulo}}</b><br>
+                Institución: {{grado.institucion}}<br>
+                Carrera: {{grado.carrera}}<br>
+                Fecha de Ingreso: {{grado.ingreso}}<br>
+                Fecha de Egreso: {{grado.egreso}}
+            </p>
+        </div>
+    </ul>
+
+
+    <h3>Formación de Pre-Grado</h3>
+    <ul *ngFor="let pregrado of pregradoList">
+        <div class="contE">
+            <img class="logoUniv" [src]="pregrado.img" alt="Logo Institucion">
+            <p><b>{{pregrado.titulo}}</b><br>
+                Institución: {{pregrado.institucion}}<br>
+                Fecha de Egreso: {{pregrado.egreso}}<br>
+                Promedio General: {{pregrado.promedio}} 
+            </p>
+        </div>
+    </ul>
+
+
+    <h3>Idiomas</h3>
+    <ul *ngFor="let idioma of idiomaList">
+        <div class="contE">
+            <img class="logoUniv" [src]="idioma.img" alt="Logo">
+            <p><b>{{idioma.idioma}}</b><br>
+                Nivel: {{idioma.nivel}}<br>
+                Institución: {{idioma.institucion}}<br>
+            </p>
+        </div>
+    </ul>
+</section>

@@ -1,0 +1,15 @@
+<section id="cursos"> 
+    <h2>Cursos Realizados</h2>
+    <div class="row justify-content-around p-4">    
+        <div class="card col-3" *ngFor="let curso of cursosList">
+            <img class="imgcards" [src]="curso.img" alt="imagen1">
+            <h4><a [href]="curso.certificado">{{curso.curso}}</a></h4>
+            <p>{{curso.detalle}}</p>
+        </div>
+    </div>            
+</section>
+
+
+
+
+

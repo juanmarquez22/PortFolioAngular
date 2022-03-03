@@ -1,0 +1,22 @@
+<section id="hero" class="hero">
+    <div class="fondoPerfil">
+    </div>
+    <div class="info">
+        <div class="contenedor">
+            <img class="foto" [src]="miPortfolio.imagen_pers" alt="Foto Juan Marquez">            
+            <h3 class="title">{{miPortfolio.nombre}}</h3>
+            <h4>{{miPortfolio.trabajo_actual.cargo}}</h4>
+            <a class="infoCont" routerLink='/contacto' href="">Información de Contacto</a>
+            <h4>{{miPortfolio.trabajo_actual.ubicacion_emp}}</h4>
+        </div>
+        <div class="iee">
+            <img class="fotoiee" [src]="miPortfolio.trabajo_actual.imagen_emp" alt="Foto Conicet-IEE">
+        </div>
+    </div>
+    <div class="botones">
+        <ul class="lista-nav">
+            <li class="item-nav"><a  routerLink='/info' href=""><i class="far fa-address-card"></i>Información Personal</a></li>
+            <li class="item-nav"><a href=""></a><i class="fas fa-server"></i>Intereses Personales</li>
+        </ul>
+    </div>
+</section>

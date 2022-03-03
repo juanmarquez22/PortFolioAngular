@@ -1,0 +1,18 @@
+<div class="card2" style="width: 40rem;">
+    <img [src]="info.img" class="card-img" alt="imagen perfil">
+    <div class="card-body">
+      <h2 class="card-title">{{info.nombre_completo}}</h2>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">DNI: {{info.dni}}</li>
+      <li class="list-group-item">Fecha de nacimiento: {{info.fecha_nac}}</li>
+      <li class="list-group-item">Estado civil: {{info.estado_civil}}</li>
+      <li class="list-group-item">Direccion: {{info.direccion}}</li>
+      <li class="list-group-item">Telefono: <b>{{info.telefono}}</b></li>
+      <li class="list-group-item">E-mail:<b> {{info.correo}}</b></li>
+    </ul>
+    <div class="card-body">
+      <a routerLink='inicio' href="#" class="card-link">Volver</a>
+    </div>
+</div>
+
